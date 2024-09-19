@@ -38,7 +38,7 @@ A personal finance manager built using **Streamlit**, **SQLAlchemy**, **SQLite**
 
 1. Start the Streamlit app:
    ```bash
-   streamlit run streamlit_app.py
+   python -m streamlit run app.py
    ```
 
 2. The app will open in your browser. From the sidebar, you can add income or expenses by filling out the form. Each transaction requires the **name/source**, **amount**, **category** (for expenses), and **date** (which defaults to today).

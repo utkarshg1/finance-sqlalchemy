@@ -71,4 +71,3 @@ Feel free to fork this repository, submit pull requests, or raise issues if you 
 ## License
 
 This project is open-source and available under the [Apache License 2.0](LICENSE).
-```

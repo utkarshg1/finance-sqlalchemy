@@ -19,7 +19,7 @@ A personal finance manager built using **Streamlit**, **SQLAlchemy**, **SQLite**
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/utkarshg1/finance-sqlalchemy.git
    cd finance-sqlalchemy
    ```
 

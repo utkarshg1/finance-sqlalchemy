@@ -9,7 +9,7 @@ A personal finance manager built using **Streamlit**, **SQLAlchemy**, **SQLite**
 - **Balance Calculation**: Displays the total balance (income - expenses).
 
 ## Requirements
-- Python 3.7+
+- Python 3.12
 - Streamlit
 - SQLAlchemy
 - Plotly
@@ -20,7 +20,7 @@ A personal finance manager built using **Streamlit**, **SQLAlchemy**, **SQLite**
 1. Clone this repository:
    ```bash
    git clone <repository-url>
-   cd personal-finance-manager
+   cd finance-sqlalchemy
    ```
 
 2. Create and activate a virtual environment:

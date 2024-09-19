@@ -32,7 +32,7 @@ elif transaction_type == "Expense":
         name = st.text_input("Expense Name")
         expense_amount = st.number_input("Expense Amount", min_value=0.0)
         category = st.selectbox(
-            "Category", ["Food", "Rent", "Utilities", "Miscellaneous"]
+            "Category", ["Food", "Entertainment", "Rent", "Utilities", "Miscellaneous"]
         )
         expense_date = st.date_input(
             "Date", value=date.today()

@@ -83,7 +83,7 @@ if not expense_df.empty and not income_df.empty:
     total_expense = expense_df["Amount"].sum()
     balance = total_income - total_expense
 
-    st.subheader(f"Current Balance: ${balance:.2f}")
+    st.subheader(f"Current Balance: {balance:.2f} INR")
 
     # Plot total income vs total expense
     st.subheader("Income vs Expenses")

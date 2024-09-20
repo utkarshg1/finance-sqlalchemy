@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  personal-finance-manager:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - STREAMLIT_SERVER_PORT=8501
+    container_name: personal_finance_manager
+
+  db:
+    image: sqlite
+    volumes:
+      - ./personal_finance.db:/app/personal_finance.db
+    container_name: finance_db
